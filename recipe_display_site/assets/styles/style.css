@@ -118,8 +118,6 @@ legend{
     align-items: center;
     text-align: center;
     gap: 5px;
-    min-width: 200px;
-    max-width: auto;
 }
 .recipe_wrapper img{
     border-radius: 10px;
@@ -142,8 +140,8 @@ legend{
     display: none;
 }
 .recipe_wrapper img:hover .view_recipe_button{
-  background-color: rgb(110, 40, 40);
-  display: flex;
+    background-color: rgb(110, 40, 40);
+    display: flex;
 }
 @media screen and (max-width: 830px) {
     .all_recipes_wrapper_try{
@@ -159,5 +157,9 @@ legend{
     }
     .all_recipes_wrapper{
         min-width: fit-content;
+    }
+    .recipe_wrapper{
+        max-width: 200px;
+        min-width: 200px;
     }
 }
